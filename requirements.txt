@@ -2,3 +2,5 @@ PyQt5
 opencv-python
 numpy
 mss
+pyautogui
+keyboard

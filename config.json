@@ -1,10 +1,75 @@
 {
-    "map_path": "C:/Users/utor9/Pictures/Screenshots/\uc2a4\ud06c\ub9b0\uc0f7 2026-01-25 175438.png",
+    "maps": [
+        {
+            "name": "\uc1fc\uc640",
+            "path": "C:/Users/utor9/Pictures/Screenshots/\uc2a4\ud06c\ub9b0\uc0f7 2026-01-25 181321.png",
+            "portals": {
+                "\uace8\ubaa9": -162
+            },
+            "hidden_portal": {}
+        },
+        {
+            "name": "\uace8\ubaa9",
+            "path": "C:/Users/utor9/Pictures/Screenshots/\uc2a4\ud06c\ub9b0\uc0f7 2026-01-25 181353.png",
+            "portals": {
+                "\uc1fc\uc640": 107
+            },
+            "hidden_portal": {
+                "x1": -80,
+                "x2": 181
+            }
+        }
+    ],
     "char_path": "C:/Users/utor9/Downloads/image (19).png",
     "search_region": {
-        "x": 6,
-        "y": 147,
-        "w": 405,
-        "h": 133
+        "x": 7,
+        "y": 138,
+        "w": 428,
+        "h": 123
+    },
+    "show_detection_overlay": true,
+    "npc_data": {
+        "\ub3c4\ub780": {
+            "image_path": "C:/Users/utor9/Pictures/Screenshots/\uc2a4\ud06c\ub9b0\uc0f7 2026-01-27 221858.png",
+            "map": "\uace8\ubaa9",
+            "x": -104
+        },
+        "\ub4c0\uc774": {
+            "image_path": "C:/Users/utor9/Pictures/Screenshots/\uc2a4\ud06c\ub9b0\uc0f7 2026-01-27 221839.png",
+            "map": "\uc1fc\uc640",
+            "x": -103
+        }
+    },
+    "delivery_config": {
+        "cider_img": "C:/Users/utor9/Pictures/Screenshots/\uc2a4\ud06c\ub9b0\uc0f7 2026-01-27 232422.png",
+        "empty_slot_img": "C:/Users/utor9/Pictures/Screenshots/\uc2a4\ud06c\ub9b0\uc0f7 2026-01-27 230249.png",
+        "send_img": "C:/Users/utor9/Pictures/Screenshots/\uc2a4\ud06c\ub9b0\uc0f7 2026-01-27 230306.png",
+        "confirm_img": "C:/Users/utor9/Pictures/Screenshots/\uc2a4\ud06c\ub9b0\uc0f7 2026-01-27 230325.png",
+        "delivery_pos": {
+            "x": 431,
+            "y": 229
+        },
+        "receiver_pos": {
+            "x": 385,
+            "y": 368
+        },
+        "charge1_pos": {
+            "x": 460,
+            "y": 722
+        },
+        "charge2_pos": {
+            "x": 224,
+            "y": 772
+        },
+        "dewey_img": "C:/Users/utor9/Pictures/Screenshots/\uc2a4\ud06c\ub9b0\uc0f7 2026-01-27 221839.png"
+    },
+    "purchase_config": {
+        "purchase_pos": {
+            "x": 652,
+            "y": 490
+        },
+        "confirm_img": "C:/Users/utor9/Pictures/Screenshots/\uc2a4\ud06c\ub9b0\uc0f7 2026-01-27 230325.png",
+        "qty": 12,
+        "min_qty": 12
     }
 }
